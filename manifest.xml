@@ -1,0 +1,9 @@
+<package>
+    <description brief="data_broker">
+      A small library to manage data communication within a software framework.
+   </description>
+   <maintainer>Malte Langosz/malte.langosz@dfki.de</maintainer>
+   <depend package="simulation/lib_manager" />
+   <depend package="simulation/utils" />
+    <tags>needs_opt</tags>
+</package>
