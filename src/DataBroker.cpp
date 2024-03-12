@@ -1659,7 +1659,7 @@ namespace mars
             elementsLock.unlock();
         }
 
-    !} // end of namespace data_broker
+    } // end of namespace data_broker
 } // end of namespace mars
 
 DESTROY_LIB(mars::data_broker::DataBroker);
