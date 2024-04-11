@@ -208,6 +208,11 @@ namespace mars
             return true;
         }
 
+        bool DataItem::set(const char* val)
+        {
+            return set(std::string{val});
+        }
+
         bool DataItem::set(bool val)
         {
             if(type != BOOL_TYPE)
@@ -217,7 +222,6 @@ namespace mars
             b = val;
             return true;
         }
-
 
     } // end of namespace data_broker
 

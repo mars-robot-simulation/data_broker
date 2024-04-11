@@ -104,6 +104,8 @@ namespace mars
             /// \copydoc set(int val)
             bool set(const std::string &val);
             /// \copydoc set(int val)
+            bool set(const char* val);
+            /// \copydoc set(int val)
             bool set(bool val);
 
         private:
